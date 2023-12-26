@@ -1,24 +1,17 @@
 # lotrmap_vue
-
-## Project setup
+## Project DEV setup
 ```
 npm install
+source venv/bin/activate
 ```
-
-### Compiles and hot-reloads for development
+### Frontend
 ```
+source venv/bin/activate
 npm run serve
 ```
-
-### Compiles and minifies for production
+### Django
 ```
-npm run build
+cd lotrmap
+source venv/bin/activate
+python manage.py runserver
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
