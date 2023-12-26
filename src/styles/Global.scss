@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+  
+.app {
+    .App {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: [first] 15% [second] 65% [third] 20%;
+        grid-template-rows: [first] 100%;
+        overflow: hidden;
+        background: radial-gradient(circle, rgb(250, 230, 188) 0%, rgb(216, 188, 126) 35%, rgb(212, 162, 69) 100%);
+    }
+  
+    .proSidebar {
+        grid-column: 1;
+        grid-row: 1;
+    }
+  
+    .mapContainer {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        grid-row: 1;
+        grid-column: 1 / 4;
+        place-self: center center;
+    }
+  
+    #infoWindowContainer {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        grid-column: 3;
+        grid-row: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        background-color: #e9e9e9ea;
+        display: grid;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
+        transition: all 0.5s ease 0s !important;
+    }
+  
+    .infoBarCollapsed {
+        -webkit-transform: translate3d(100%, 0px, 0px) !important;
+        transform: translate3d(100%, 0px, 0px) !important;
+        transition: all 0.5s ease 0s !important;
+        -webkit-transition: all 0.5s ease 0s !important;
+    }
+}

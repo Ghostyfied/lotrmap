@@ -1,0 +1,49 @@
+
+.infoWindowWrapper {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: [first] 7% [second] 5% [third] 83%;
+}
+
+.infoHeader {
+    place-self: center center;
+    font-size: 22px;
+    font-weight: 700;
+	font-family: Gabriola;
+    grid-column: 2;
+}
+
+.infoBody {
+    display: grid;
+    place-self: auto center;
+	font-family: Gabriola;
+    font-size: 25px;
+    line-height: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pathDivider {
+    fill-rule:evenodd;
+    stroke:#4d4d4d;
+    stroke-width:1px;
+    fill:#000000;
+}
+
+.infoDivider {
+    width: 100%;
+    height: 100%;
+}
+
+#headerArea {
+    display: grid;
+    grid-template-columns: [first] 20% [second] 60% [third] 20%;
+}
+
+#headerIcon {
+    place-self: center center;
+    grid-column: 1;
+    cursor: pointer;
+}

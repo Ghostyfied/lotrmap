@@ -1,0 +1,57 @@
+
+.level_one {
+	opacity: 1;
+	transition: opacity 0.5s;
+	cursor: pointer;
+	
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.level_two {
+	opacity: 1;
+	transition: opacity 0.5s;
+	cursor: pointer;
+	
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.level_zero {
+	opacity: 1;
+	transition: opacity 0.5s;
+	cursor: pointer;
+	
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.level_one.fade {
+	opacity: 0;
+	cursor: default;
+}
+.level_two.fade {
+	opacity: 0;
+	cursor: default;
+}
+.level_zero:hover {
+	fill: rgb(133, 8, 8);
+}
+.level_one:hover {
+	fill: rgb(133, 8, 8);
+}
+.level_two:hover {
+	fill: rgb(133, 8, 8);
+}
+rect {
+	opacity: 0;
+}
